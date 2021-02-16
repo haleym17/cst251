@@ -1,0 +1,43 @@
+body {
+    font-family: Helvetica, Verdana, Arial, "san serif";
+    background-color: black;
+    padding: 25px;
+    font-size: 120%;
+    color: white;
+}
+
+div#content {
+    padding: 50px;
+    border: dotted 2px pink;
+    background-color: lightgray;
+    border: solid 1px #333333;
+    height: 80vh;
+}
+
+div{
+  border:dotted 2px pink;
+  background-color: black;
+  padding-top: 20px;
+  padding-bottom: 40px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+h1, h2, h3 {
+    font-family: "arial", monospace;
+}
+
+img {
+    float: right;
+    width: 400px;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+    color: maroon;
+}
+a:hover {
+    text-decoration: underline;
+    text-decoration-style: wavy;
+}
