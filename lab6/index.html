@@ -1,13 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Lab X - Subject/Topic</title>
+	<title>Lab 6 - More Complicated HTML</title>
 	<link rel="stylesheet" type="text/css" href="../css/site.css">
 	<link rel="stylesheet" type="text/css" href="css/lab.css">
 </head>
 <body>
 
-<div id="content">
 	<h1>Lab 6 More Complicated HTML</h1>
   <h2>Purpose</h2>
 	<p>The purpose of this particular lab is to create an html file and style it
@@ -22,8 +21,35 @@
    at past assignments.</p>
 	<h2>Results</h2>
 	<p>If done correctly, you are currently looking at the product of my CSS file
-		style attempt! </p>
-</div>
+		style attempt, and can access my form. </p>
+
+	<form action="http://google.com/search" method="GET" target="_new">
+		<label>Search: <input name="q" type="text"></label><br>
+		<label>Password: <input name="password" type="password"></label><br>
+
+		What are you?:
+	  <label><input name="what_are_you" type="radio" value="good">Good</label>
+		<label><input name="what_are_you" type="radio" value="evil">Evil</label><br>
+
+		<label>Alive: <input name="alive" type="checkbox"><br>
+
+		<label>Mood Scale:
+			<select name="mood">
+				<option selected disabled>Select Option</option>
+				<option value="angry">Angry</option>
+				<option value="annoyed">Annoyed</option>
+				<option value="happy">Happy</option>
+				<option value="hyper">Hyper</option>
+				<option value="relaxed">Relaxed</option>
+				<option value="sad">Sad</option>
+				<option value="sleepy">Sleepy</option>
+			</select>
+		</label><br>
+
+		<label>Vent to me: <textarea name="essay"></textarea></label><br>
+
+		<input type="submit" value="Submit">
+	</form>
 
 
 
