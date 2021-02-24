@@ -6,7 +6,7 @@ img{
   padding-right: 5px;
 }
 div{
-  border:dotted 2px pink;
+  border:dotted 2px rgb(106,53,77);
   background-color: black;
   padding-top: 20px;
   padding-bottom: 40px;
@@ -14,7 +14,7 @@ div{
   padding-left: 20px;
 }
 body {
-  background-color: pink;
+  background-color: rgb(106,53,77);
 }
 h1 {
   font-family: georgia;
@@ -26,7 +26,7 @@ h2 {
 }
 p {
   font-family: arial;
-  color: white;
+  color: rgb(196,161,177);
 }
 
 p{
