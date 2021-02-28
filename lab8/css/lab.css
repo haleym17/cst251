@@ -1,0 +1,19 @@
+html {
+  background-color: rgb(164,15,15)
+}
+
+div{
+  background-color: black
+}
+
+body{
+  font-family:sans-serif;
+  color: white;
+}
+nav{
+  background-color: rgb(164,15,15)
+}
+
+img#skulls{
+  float: right;
+}
