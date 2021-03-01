@@ -11,11 +11,14 @@
 }
 body {
   background-color: rgb(164,15,15);
+  border: dotted 4px black;
 }
 #title {
   font-family: georgia;
   color: white;
+  text-decoration: overline;
 }
+
 div, .purpose, .challenges, .results{
   font-style: italic;
 }
@@ -39,7 +42,12 @@ p{
     margin-bottom: 20px;
     align-content: center;
   }
-
+.mybackground {
+      height: 590px;
+      background-image: url("silk.jpg");
+      background-position: 50% 0;
+      background-size: auto, auto 100%;
+  }
   div{
     background-color: black;
     padding-top: 15px;
