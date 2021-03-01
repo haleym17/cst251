@@ -1,31 +1,43 @@
 #skulls{
   float: right;
 }
-.skulls:hover {
-  width: 200px;
-  height:150px;
+#skulls :hover {
+  width: 450px;
+  height: 350px;
+  filter: invert(100%);
 }
-
+#dreamer :hover{
+  opacity: 0.0;
+}
 body {
   background-color: rgb(164,15,15);
 }
-h1 {
+#title {
   font-family: georgia;
   color: white;
+}
+div, .purpose, .challenges, .results{
+  font-style: italic;
+}
+div h2{
+  font-style: normal;
+  align-content: center;
 }
 h2 {
   font-family: arial;
   color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px red,0 0 5px maroon;
+}
+#results{
+  padding: 10px;
 }
 
 p{
     font-family: arial;
     color: white;
-  }
-
-p{
     margin-top: 10px;
     margin-bottom: 20px;
+    align-content: center;
   }
 
   div{
