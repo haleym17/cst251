@@ -18,6 +18,11 @@ body {
   color: white;
   text-decoration: overline;
 }
+div#challenges h2:hover {
+ font-family: monospace;
+ color:red;
+ font-size: 20px;
+}
 
 div, .purpose, .challenges, .results{
   font-style: italic;
@@ -42,12 +47,7 @@ p{
     margin-bottom: 20px;
     align-content: center;
   }
-.mybackground {
-      height: 590px;
-      background-image: url("silk.jpg");
-      background-position: 50% 0;
-      background-size: auto, auto 100%;
-  }
+
   div{
     background-color: black;
     padding-top: 15px;
