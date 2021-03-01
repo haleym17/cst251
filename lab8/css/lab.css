@@ -1,19 +1,37 @@
-html {
-  background-color: rgb(164,15,15)
-}
-
-div{
-  background-color: black
-}
-
-body{
-  font-family:sans-serif;
-  color: white;
-}
-nav{
-  background-color: rgb(164,15,15)
-}
-
-img#skulls{
+#skulls{
   float: right;
 }
+.skulls:hover {
+  width: 200px;
+  height:150px;
+}
+
+body {
+  background-color: rgb(164,15,15);
+}
+h1 {
+  font-family: georgia;
+  color: white;
+}
+h2 {
+  font-family: arial;
+  color: white;
+}
+
+p{
+    font-family: arial;
+    color: white;
+  }
+
+p{
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+
+  div{
+    background-color: black;
+    padding-top: 15px;
+    padding-bottom:15px;
+    padding-right: 15px;
+    padding-left:15px;
+  }
