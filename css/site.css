@@ -1,40 +1,45 @@
-img{
+#selfie{
   float:right;
-  width: 300px;
-  height: 300px;
-  padding-left: 15px;
-  padding-right: 5px;
 }
-div{
-  border:dotted 2px rgb(106,53,77);
-  background-color: black;
-  padding-top: 20px;
-  padding-bottom: 40px;
-  padding-right: 20px;
-  padding-left: 20px;
+#selfie:hover{
+  filter:invert(80%);
 }
-body {
-  background-color: pink;
+body{
+  background-image: url("../img/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
 }
-h1 {
-  font-family: georgia;
-  color: black;
-}
-h2 {
-  font-family: arial;
-  color: white;
-}
-p {
-  font-family: arial;
-  color: rgb(196,161,177);
+main{
+  background-color:rgba(0,0,0,0.75);
+  padding: 15px;
+  padding-bottom: 25px;
+  border: dotted 2px grey;
 }
 
-p{
-  margin-top: 10px;
-  margin-bottom: 20px;
+
+h1{
+  font-style: normal;
+  color:rgb(213,17,17);
+  align-content: center;
 }
-h3{
-  font-family: arial;
-  color: black;
-  display: inline;
+
+p, .p1, .p2 {
+  font-style: normal;
+  color: white;
+}
+
+#labs{
+  background-color:rgba(0,0,0,0.75);
+  padding: 15px;
+  display: inline-block;
+  font-style: normal;
+  color: white;
+}
+#marceline{
+  float: right;
+}
+#cme{
+padding-left:50px;
 }
