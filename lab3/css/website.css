@@ -1,0 +1,41 @@
+
+  body{
+    background-image: url("../img/jellyfish.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+h1 {
+  font-family: arial;
+  color: white;
+}
+h2 {
+  font-family: arial;
+  color: white;
+}
+
+p {
+  font-family: arial;
+  color: white;
+}
+
+p{
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-style: italic;
+}
+
+div{
+  border:dotted 2px grey;
+  background-color:rgba(0,0,0,0.75);
+  padding-top: 20px;
+  padding-bottom: 70px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+img {
+    float: right;
+    background-color: black;
+    border: dotted 2px grey;
+}
