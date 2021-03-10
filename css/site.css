@@ -44,3 +44,8 @@ p, .p1, .p2 {
 #cme{
 padding-left:50px;
 }
+aside{
+  float:right;
+  width: 1/3;
+  min-width: 300px;
+}
