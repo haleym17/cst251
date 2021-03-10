@@ -1,0 +1,68 @@
+header{
+  font-style: normal;
+  color: white;
+  font-family: "Trirong", serif;
+  padding: 15px;
+  text-shadow: 1px 1px 2px pink, 0 0 15px black,0 0 5px black;
+}
+
+aside {
+  float:right;
+  width: 1/3;
+  min-width: 300px;
+  border: dotted 3px grey;
+  padding: 10px;
+  background-color: black;
+  font-style: normal;
+  color: white;
+  font-family: cursive;
+  font: verdana;
+}
+nav{
+  position: fixed;
+  top: 10px;
+  border: double 2px black;
+
+}
+#words{
+  border: dotted 2px white;
+  padding-left: 15px;
+}
+#skull{
+  float:right;
+  padding-right: 15px;
+}
+
+#angel{
+  padding-left: 15px;
+}
+#icarus{
+  float:right;
+  padding-right: 20px;
+}
+#gold{
+  padding-left: 20px;
+}
+main{
+background-color:rgba(255,255,255,0.55)
+}
+
+body{
+  background-image: url("../img/nightsky.jpg");
+  background-repeat:repeat-y;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+html{
+  background-color: black;
+}
+
+p{
+  font-size: 18px;
+}
+
+h2{
+  text-decoration: underline;
+  font-family:"Trirong", sans-serif;
+}
