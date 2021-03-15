@@ -1,0 +1,71 @@
+header{
+  font-style: normal;
+  color: white;
+  font-family: "Trirong", serif;
+  padding: 15px;
+  text-shadow: 1px 1px 2px pink, 0 0 15px black,0 0 5px black;
+}
+
+h2{
+  text-decoration: underline;
+  font-family:"Trirong", sans-serif;
+  color: white;
+}
+
+html{
+  background-image: url("../img/bg.jpg");
+  background-repeat:repeat-y;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+div {
+ width:30%;
+ background-color:rgba(0,0,0,0.75);
+}
+main{
+  background-color:rgba(0,0,0,0.65);
+  padding-left: 15px;
+}
+
+p{
+  font-style: normal;
+  color: white;
+  font: verdana, sans-serif;
+}
+
+#floated{
+  float:right;
+  border: dotted 2px pink;
+  text-align: center;
+  height: 500px;
+}
+
+
+#center-horz{
+  text-align: center;
+  border: dotted pink 2px;
+  height: 500px;
+}
+
+#center-img{
+  text-align: center;
+  border: dotted 2px pink;
+}
+
+#center-both{
+  height: 300px;
+  position:relative;
+  border: dotted 2px pink;
+  float: right;
+}
+
+#center-both img{
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+
+}
