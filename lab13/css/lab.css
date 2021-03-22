@@ -1,0 +1,36 @@
+iframe#fake {
+    width: 800px;
+    height: 500px;
+    resize: both;
+    overflow: hidden;
+    background: white;
+}
+html{
+  background-image: url("../img/bg.jpg");
+  background-repeat:repeat-y;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+body{
+background-color:rgba(255,255,255,0.65);
+padding: 20px;
+}
+
+header{
+  font-style: normal;
+  color: white;
+  font-family: "Calibri", serif;
+  padding: 15px;
+  text-shadow: 1px 1px 2px pink, 0 0 15px black,0 0 5px black;
+}
+h2{
+  font-family:"Lora", sans-serif;
+  font-style: italic;
+  color: white;
+  text-shadow: 1px 1px 2px white, 0 0 15px black,0 0 5px black;
+}
+p{
+  font-family: "Calibri", serif;
+}

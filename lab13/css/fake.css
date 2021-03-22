@@ -1,0 +1,42 @@
+#try{
+  font-family: "Lora", serif;
+  font-size: 25px;
+}
+
+#person{
+  float:right;
+  padding-top: 80px;
+  padding-right: 40px;
+}
+em{
+  font-family: "Lora", sans-serif;
+  font-style: italic;
+  font-size: 23px;
+}
+main{
+  padding-left: 100px;
+  padding-top: 40px;
+}
+
+#header-2{
+  font-family: "Lora", serif;
+  font-size: 25px;
+}
+/* css.gg */
+@import url("https://css.gg/ {format-left} .css");
+
+
+aside{
+  float: right;
+  padding-right: 100px;
+}
+
+#table{
+  padding-left: 150px;
+  padding-top: 30px;
+}
+
+#right-text, #left-text{
+  font-family: "Calibri", sans-serif;
+  color: rgb(47,47,47);
+}
