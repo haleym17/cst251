@@ -1,0 +1,36 @@
+iframe#fake {
+    width: 800px;
+    height: 500px;
+    resize: both;
+    overflow: hidden;
+    background-color: white;
+}
+
+html{
+  background-image: url("../img/bg.jpg");
+  background-repeat:repeat-y;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  padding: 20px;
+}
+header{
+    font-style: normal;
+    color: white;
+    padding: 15px;
+    text-shadow: 1px 1px 2px pink, 0 0 15px black,0 0 5px black;
+}
+body{
+background-color:rgba(0,0,0,0.65);
+padding: 20px;
+}
+
+h2{
+  font-style: italic;
+  color: white;
+}
+
+p{
+  font-style: normal;
+  color: pink;
+}
