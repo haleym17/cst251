@@ -30,12 +30,12 @@ html{
 }
 p{
   font-style: normal;
-  color: white;
+  color:blue;
 }
 
 h2{
   text-decoration: underline;
-  color: white;
+  color: cyan;
 }
 
 main{
