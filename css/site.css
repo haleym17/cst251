@@ -2,6 +2,7 @@
   float:right;
   padding-right: 60px;
 }
+
 #selfie:hover{
   filter:invert(80%);
 }
@@ -17,6 +18,7 @@ body{
   background-position: center;
   background-attachment: fixed;
 }
+
 main{
   background-color:rgba(0,0,0,0.75);
   padding: 15px;
@@ -45,13 +47,16 @@ p, .p1, .p2 {
   font-style: normal;
   color: white;
 }
+
 #marceline{
   float: right;
   padding-right: 100px;
 }
+
 #cme{
 padding-left:50px;
 }
+
 aside{
   float:right;
   width: 1/3;
