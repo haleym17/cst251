@@ -1,0 +1,72 @@
+aside {
+  float:right;
+  width: 1/3;
+  min-width: 300px;
+  border-radius: 20px;
+  padding: 20px;
+  background-color: black;
+  font-style: normal;
+  color: white;
+  font-family: cursive;
+  font: verdana;
+}
+
+#skulls{
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 30px;
+  filter: invert(100%);
+  object-fit: cover;
+  width: 650;
+  height: auto;
+}
+
+html{
+  background-image: linear-gradient(to right, black , grey);
+}
+
+#txt-content{
+ border: dotted grey 2px;
+ display: flow-root;
+ box-shadow: 10px 10px 5px black;
+}
+p{
+  font-style: normal;
+  color: white;
+}
+
+h2{
+  text-decoration: underline;
+  color: white;
+}
+
+main{
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+header{
+  font-style: normal;
+  color: white;
+  font-family: "Trirong", serif;
+  padding: 30px;
+  text-shadow: 1px 1px 2px pink, 0 0 15px black,0 0 5px black;
+}
+header:hover{
+  -ms-transform: rotate(-180deg);
+  transform: rotate(-180deg);
+}
+
+#jesus{
+  float:right;
+  padding-right: 40px;
+  padding-top: 40px;
+}
+#jesus:hover, #important:hover{
+  filter: blur(4px);
+}
+
+#important{
+  padding-left: 30px;
+  padding-top: 40px;
+}
