@@ -1,11 +1,17 @@
 #selfie{
   float:right;
+  padding-right: 60px;
 }
 #selfie:hover{
   filter:invert(80%);
 }
+
+#glasses{
+padding-left: 60px;
+}
+
 body{
-  background-image: url("../img/bg.jpg");
+  background-image: linear-gradient(to right, black , maroon);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -18,12 +24,13 @@ main{
   border: dotted 2px grey;
 }
 
-
 h1{
   font-style: normal;
-  color:rgb(213,17,17);
+  color: maroon;
   align-content: center;
   font-family: "Trirong", serif;
+  padding-left: 20px;
+  text-shadow: 1px 0px 2px white, 0 0 15px black,0 0 5px black;
 }
 
 p, .p1, .p2 {
@@ -40,6 +47,7 @@ p, .p1, .p2 {
 }
 #marceline{
   float: right;
+  padding-right: 100px;
 }
 #cme{
 padding-left:50px;
