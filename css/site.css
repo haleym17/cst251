@@ -18,7 +18,9 @@ body{
   background-position: center;
   background-attachment: fixed;
 }
-
+#text{
+  column-count: 2;
+}
 main{
   background-color:rgba(0,0,0,0.75);
   padding: 15px;
@@ -51,10 +53,12 @@ p, .p1, .p2 {
 #marceline{
   float: right;
   padding-right: 100px;
+  padding-top: 30px;
 }
 
 #cme{
 padding-left:50px;
+padding-top: 30px;
 }
 
 aside{
