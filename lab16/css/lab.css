@@ -11,8 +11,6 @@ aside {
   font: verdana;
   column-count: 2;
 }
-
-
 #axolotl{
   padding-left: 30px;
   padding-right: 30px;
@@ -39,6 +37,7 @@ html{
 p{
   font-style: normal;
   color: black;
+  padding-right: 40px;
 }
 #poem{
   font-family: cursive;
